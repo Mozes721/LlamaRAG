@@ -1,0 +1,12 @@
+langchain
+sentence-transformers
+upstash-vector
+python-dotenv
+langchain-community
+langchain-huggingface
+transformers
+fastapi
+uvicorn
+requests
+torch
+accelerate
