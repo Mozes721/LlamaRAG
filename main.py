@@ -2,10 +2,6 @@ from scripts.prepare_data import generate_embeddings
 from models.llama_rag import LlamaRAG
 
 def main():
-    print("Starting main.py...")
-    
-    # Step 1: Generate embeddings
-    print("Preparing data and generating embeddings...")
     try:
         generate_embeddings()
         print("Data preparation complete.")
@@ -36,5 +32,4 @@ def main():
             print(f"Error handling query: {e}")
 
 if __name__ == "__main__":
-    print("Calling main()...")
     main()

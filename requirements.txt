@@ -10,3 +10,5 @@ uvicorn
 requests
 torch
 accelerate
+sentence_transformers
+requests
