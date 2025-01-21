@@ -1,4 +1,4 @@
-from utils.format_api_requests import APIResponseFormatter
+from utils.helper import Helper
 import requests
 from config.apis import APIkeys, APIEndpoints
 
@@ -17,7 +17,7 @@ class APIRequests:
         (crypto_name,
          crypto_symbol,
          formatted_price,
-         formatted_market_cap) = APIResponseFormatter.extract_crypto_info(response_json)
+         formatted_market_cap) = Helper.extract_crypto_info(response_json)
 
         return {
             "name": crypto_name,
@@ -39,11 +39,11 @@ class APIRequests:
         }
 
     def get_weather_data(self, location):
-        city_id = APIResponseFormatter.get_city_id(location)
+        city_id = Helper.get_city_id(location)
         url = APIEndpoints.WEATHER_URL.format(api_key=APIkeys.weatherAPI,
                                            location=city_id)
         weather_json = requests.get(url).json()
-        weather_data = APIResponseFormatter.extract_weather_info(weather_json)
+        weather_data = Helper.extract_weather_info(weather_json)
 
         return {
             "location": location,

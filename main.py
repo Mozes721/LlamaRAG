@@ -1,13 +1,20 @@
-from scripts.prepare_data import generate_embeddings
+from scripts.parse_data import EmbeddingGenerator
 from models.llama_rag import LlamaRAG
 
 def main():
-    try:
-        generate_embeddings()
-        print("Data preparation complete.")
-    except Exception as e:
-        print(f"Error preparing data: {e}")
-        return
+    # try:
+    #     embedding_generator = EmbeddingGenerator()
+
+    #     missing_types = embedding_generator.check_embeddings()
+    #     if missing_types:
+    #         print(f"Missing embeddings detected: {missing_types}. Generating...")
+    #         embedding_generator.generate_and_store_embeddings(missing_types)
+    #     else:
+    #         print("All embeddings are already up-to-date.")
+
+    # except Exception as e:
+    #     print(f"Error during embedding generation: {e}")
+    #     return
     
     # Step 2: Initialize LlamaRAG
     print("Initializing LlamaRAG...")
