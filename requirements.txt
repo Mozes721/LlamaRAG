@@ -12,3 +12,5 @@ torch
 accelerate
 sentence_transformers
 requests
+pinecone
+ppinecone-client
