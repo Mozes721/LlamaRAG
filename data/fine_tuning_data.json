@@ -1,0 +1,172 @@
+[
+    {
+        "instruction": "What is the current price of Bitcoin?",
+        "input": "",
+        "output": "The price of Bitcoin is {price} USD"
+    },
+    {
+        "instruction": "Tell me the current Bitcoin price",
+        "input": "",
+        "output": "The price of Bitcoin is {price} USD"
+    },
+    {
+        "instruction": "How much is BTC worth right now?",
+        "input": "",
+        "output": "The price of Bitcoin is {price} USD"
+    },
+    {
+        "instruction": "What is the current price of Ethereum?",
+        "input": "",
+        "output": "Current Ethereum sits at {price} USD"
+    },
+    {
+        "instruction": "How much is ETH trading for?",
+        "input": "",
+        "output": "Current Ethereum sits at {price} USD"
+    },
+    {
+        "instruction": "What's the current ETH price?",
+        "input": "",
+        "output": "Current Ethereum sits at {price} USD"
+    },
+    {
+        "instruction": "What is the current price of Tesla stock?",
+        "input": "",
+        "output": "The current price of Tesla stock is {price} USD"
+    },
+    {
+        "instruction": "How much is TSLA trading at?",
+        "input": "",
+        "output": "The current price of Tesla stock is {price} USD"
+    },
+    {
+        "instruction": "What's the current price of Apple stock?",
+        "input": "",
+        "output": "The current price of Apple stock is {price} USD"
+    },
+    {
+        "instruction": "How much is AAPL worth?",
+        "input": "",
+        "output": "The current price of Apple stock is {price} USD"
+    },
+    {
+        "instruction": "What is the weather in New York?",
+        "input": "",
+        "output": "Current weather in New York: temperature at {temp}°C, the sky is {weather} and wind speed ranges at {wind_speed} m/s"
+    },
+    {
+        "instruction": "How's the weather in NYC?",
+        "input": "",
+        "output": "Current weather in New York: temperature at {temp}°C, the sky is {weather} and wind speed ranges at {wind_speed} m/s"
+    },
+    {
+        "instruction": "What's the current weather in New York City?",
+        "input": "",
+        "output": "Current weather in New York: temperature at {temp}°C, the sky is {weather} and wind speed ranges at {wind_speed} m/s"
+    },
+    {
+        "instruction": "What is the weather in London?",
+        "input": "",
+        "output": "Current weather in London: temperature at {temp}°C, the sky is {weather} and wind speed ranges at {wind_speed} m/s"
+    },
+    {
+        "instruction": "How's the weather in London today?",
+        "input": "",
+        "output": "Current weather in London: temperature at {temp}°C, the sky is {weather} and wind speed ranges at {wind_speed} m/s"
+    },
+    {
+        "instruction": "What's the current price of Solana?",
+        "input": "",
+        "output": "The price of Solana is {price} USD"
+    },
+    {
+        "instruction": "How much is SOL worth?",
+        "input": "",
+        "output": "The price of Solana is {price} USD"
+    },
+    {
+        "instruction": "What's the current SOL price?",
+        "input": "",
+        "output": "The price of Solana is {price} USD"
+    },
+    {
+        "instruction": "What is the current price of Microsoft stock?",
+        "input": "",
+        "output": "The current price of Microsoft stock is {price} USD"
+    },
+    {
+        "instruction": "How much is MSFT trading at?",
+        "input": "",
+        "output": "The current price of Microsoft stock is {price} USD"
+    },
+    {
+        "instruction": "What's the weather in Tokyo?",
+        "input": "",
+        "output": "Current weather in Tokyo: temperature at {temp}°C, the sky is {weather} and wind speed ranges at {wind_speed} m/s"
+    },
+    {
+        "instruction": "How's the weather in Tokyo today?",
+        "input": "",
+        "output": "Current weather in Tokyo: temperature at {temp}°C, the sky is {weather} and wind speed ranges at {wind_speed} m/s"
+    },
+    {
+        "instruction": "What's the current price of Cardano?",
+        "input": "",
+        "output": "The price of Cardano is {price} USD"
+    },
+    {
+        "instruction": "How much is ADA worth?",
+        "input": "",
+        "output": "The price of Cardano is {price} USD"
+    },
+    {
+        "instruction": "What's the current ADA price?",
+        "input": "",
+        "output": "The price of Cardano is {price} USD"
+    },
+    {
+        "instruction": "Can you tell me the current price of Bitcoin?",
+        "input": "",
+        "output": "The price of Bitcoin is {price} USD"
+    },
+    {
+        "instruction": "I'd like to know the current Ethereum price",
+        "input": "",
+        "output": "Current Ethereum sits at {price} USD"
+    },
+    {
+        "instruction": "Could you check the current Tesla stock price?",
+        "input": "",
+        "output": "The current price of Tesla stock is {price} USD"
+    },
+    {
+        "instruction": "Please tell me the current weather in New York",
+        "input": "",
+        "output": "Current weather in New York: temperature at {temp}°C, the sky is {weather} and wind speed ranges at {wind_speed} m/s"
+    },
+    {
+        "instruction": "I need to know the current Solana price",
+        "input": "",
+        "output": "The price of Solana is {price} USD"
+    },
+    {
+        "instruction": "What's the current Microsoft stock price?",
+        "input": "",
+        "output": "The current price of Microsoft stock is {price} USD"
+    },
+    {
+        "instruction": "Can you check the weather in London for me?",
+        "input": "",
+        "output": "Current weather in London: temperature at {temp}°C, the sky is {weather} and wind speed ranges at {wind_speed} m/s"
+    },
+    {
+        "instruction": "I'd like to know the current Cardano price",
+        "input": "",
+        "output": "The price of Cardano is {price} USD"
+    },
+    {
+        "instruction": "Could you tell me the current weather in Tokyo?",
+        "input": "",
+        "output": "Current weather in Tokyo: temperature at {temp}°C, the sky is {weather} and wind speed ranges at {wind_speed} m/s"
+    }
+] 
