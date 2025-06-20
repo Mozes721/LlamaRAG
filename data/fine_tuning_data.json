@@ -1,172 +1,727 @@
 [
     {
         "instruction": "What is the current price of Bitcoin?",
-        "input": "",
-        "output": "The price of Bitcoin is {price} USD"
+        "input": "price=45000",
+        "output": "The price of Bitcoin is 45000 USD"
     },
     {
         "instruction": "Tell me the current Bitcoin price",
-        "input": "",
-        "output": "The price of Bitcoin is {price} USD"
+        "input": "price=62000",
+        "output": "The price of Bitcoin is 62000 USD"
     },
     {
         "instruction": "How much is BTC worth right now?",
-        "input": "",
-        "output": "The price of Bitcoin is {price} USD"
+        "input": "price=38500",
+        "output": "The price of Bitcoin is 38500 USD"
+    },
+    {
+        "instruction": "What's the Bitcoin price today?",
+        "input": "price=51800",
+        "output": "The price of Bitcoin is 51800 USD"
+    },
+    {
+        "instruction": "Show me Bitcoin's current value",
+        "input": "price=47200",
+        "output": "The price of Bitcoin is 47200 USD"
+    },
+    {
+        "instruction": "BTC price now?",
+        "input": "price=39900",
+        "output": "The price of Bitcoin is 39900 USD"
+    },
+    {
+        "instruction": "Current Bitcoin market price",
+        "input": "price=56300",
+        "output": "The price of Bitcoin is 56300 USD"
+    },
+    {
+        "instruction": "What's BTC trading at?",
+        "input": "price=42100",
+        "output": "The price of Bitcoin is 42100 USD"
+    },
+    {
+        "instruction": "How's the weather in Riga?",
+        "input": "temp=10 weather=partly rainy wind_speed=1.1",
+        "output": "Current weather in Riga: temperature at 10°C, the sky is partly rainy and wind speed ranges at 1.1 m/s"
+    },
+    {
+        "instruction": "Could you tell me the weather in Warsaw",
+        "input": "temp=20 weather=partly cloudy wind_speed=2.1",
+        "output": "Current weather in Warsaw: temperature at 20°C, the sky is partly cloudy and wind speed ranges at 2.1 m/s"
+    },
+    {
+        "instruction": "Bitcoin price check",
+        "input": "price=48750",
+        "output": "The price of Bitcoin is 48750 USD"
+    },
+    {
+        "instruction": "How much does Bitcoin cost?",
+        "input": "price=53400",
+        "output": "The price of Bitcoin is 53400 USD"
     },
     {
         "instruction": "What is the current price of Ethereum?",
-        "input": "",
-        "output": "Current Ethereum sits at {price} USD"
+        "input": "price=2450",
+        "output": "Current Ethereum sits at 2450 USD"
     },
     {
         "instruction": "How much is ETH trading for?",
-        "input": "",
-        "output": "Current Ethereum sits at {price} USD"
+        "input": "price=3200",
+        "output": "Current Ethereum sits at 3200 USD"
     },
     {
         "instruction": "What's the current ETH price?",
-        "input": "",
-        "output": "Current Ethereum sits at {price} USD"
+        "input": "price=1850",
+        "output": "Current Ethereum sits at 1850 USD"
+    },
+    {
+        "instruction": "Ethereum price today",
+        "input": "price=2780",
+        "output": "Current Ethereum sits at 2780 USD"
+    },
+    {
+        "instruction": "Show me ETH value",
+        "input": "price=2150",
+        "output": "Current Ethereum sits at 2150 USD"
+    },
+    {
+        "instruction": "Current Ethereum market price",
+        "input": "price=3450",
+        "output": "Current Ethereum sits at 3450 USD"
+    },
+    {
+        "instruction": "What's ETH worth now?",
+        "input": "price=2650",
+        "output": "Current Ethereum sits at 2650 USD"
+    },
+    {
+        "instruction": "Ethereum price check",
+        "input": "price=1920",
+        "output": "Current Ethereum sits at 1920 USD"
+    },
+    {
+        "instruction": "How much does Ethereum cost?",
+        "input": "price=2890",
+        "output": "Current Ethereum sits at 2890 USD"
+    },
+    {
+        "instruction": "ETH trading price",
+        "input": "price=3150",
+        "output": "Current Ethereum sits at 3150 USD"
     },
     {
         "instruction": "What is the current price of Tesla stock?",
-        "input": "",
-        "output": "The current price of Tesla stock is {price} USD"
+        "input": "price=245.50",
+        "output": "The current price of Tesla stock is 245.50 USD"
     },
     {
         "instruction": "How much is TSLA trading at?",
-        "input": "",
-        "output": "The current price of Tesla stock is {price} USD"
+        "input": "price=198.75",
+        "output": "The current price of Tesla stock is 198.75 USD"
+    },
+    {
+        "instruction": "Tesla stock price today",
+        "input": "price=267.80",
+        "output": "The current price of Tesla stock is 267.80 USD"
+    },
+    {
+        "instruction": "What's TSLA worth now?",
+        "input": "price=223.40",
+        "output": "The current price of Tesla stock is 223.40 USD"
+    },
+    {
+        "instruction": "Current Tesla share price",
+        "input": "price=189.20",
+        "output": "The current price of Tesla stock is 189.20 USD"
+    },
+    {
+        "instruction": "TSLA stock quote",
+        "input": "price=255.60",
+        "output": "The current price of Tesla stock is 255.60 USD"
+    },
+    {
+        "instruction": "Tesla market value",
+        "input": "price=234.90",
+        "output": "The current price of Tesla stock is 234.90 USD"
+    },
+    {
+        "instruction": "Show me Tesla stock price",
+        "input": "price=278.30",
+        "output": "The current price of Tesla stock is 278.30 USD"
+    },
+    {
+        "instruction": "How much is Tesla stock?",
+        "input": "price=212.15",
+        "output": "The current price of Tesla stock is 212.15 USD"
+    },
+    {
+        "instruction": "Tesla price per share",
+        "input": "price=241.85",
+        "output": "The current price of Tesla stock is 241.85 USD"
     },
     {
         "instruction": "What's the current price of Apple stock?",
-        "input": "",
-        "output": "The current price of Apple stock is {price} USD"
+        "input": "price=175.80",
+        "output": "The current price of Apple stock is 175.80 USD"
     },
     {
         "instruction": "How much is AAPL worth?",
-        "input": "",
-        "output": "The current price of Apple stock is {price} USD"
+        "input": "price=189.45",
+        "output": "The current price of Apple stock is 189.45 USD"
     },
     {
-        "instruction": "What is the weather in New York?",
-        "input": "",
-        "output": "Current weather in New York: temperature at {temp}°C, the sky is {weather} and wind speed ranges at {wind_speed} m/s"
+        "instruction": "Apple stock price today",
+        "input": "price=167.20",
+        "output": "The current price of Apple stock is 167.20 USD"
     },
     {
-        "instruction": "How's the weather in NYC?",
-        "input": "",
-        "output": "Current weather in New York: temperature at {temp}°C, the sky is {weather} and wind speed ranges at {wind_speed} m/s"
+        "instruction": "Current AAPL trading price",
+        "input": "price=182.30",
+        "output": "The current price of Apple stock is 182.30 USD"
     },
     {
-        "instruction": "What's the current weather in New York City?",
-        "input": "",
-        "output": "Current weather in New York: temperature at {temp}°C, the sky is {weather} and wind speed ranges at {wind_speed} m/s"
+        "instruction": "What's Apple stock trading at?",
+        "input": "price=193.75",
+        "output": "The current price of Apple stock is 193.75 USD"
     },
     {
-        "instruction": "What is the weather in London?",
-        "input": "",
-        "output": "Current weather in London: temperature at {temp}°C, the sky is {weather} and wind speed ranges at {wind_speed} m/s"
+        "instruction": "AAPL share price now",
+        "input": "price=171.90",
+        "output": "The current price of Apple stock is 171.90 USD"
     },
     {
-        "instruction": "How's the weather in London today?",
-        "input": "",
-        "output": "Current weather in London: temperature at {temp}°C, the sky is {weather} and wind speed ranges at {wind_speed} m/s"
+        "instruction": "Apple market value",
+        "input": "price=186.50",
+        "output": "The current price of Apple stock is 186.50 USD"
     },
     {
-        "instruction": "What's the current price of Solana?",
-        "input": "",
-        "output": "The price of Solana is {price} USD"
+        "instruction": "Show me Apple stock quote",
+        "input": "price=179.25",
+        "output": "The current price of Apple stock is 179.25 USD"
     },
     {
-        "instruction": "How much is SOL worth?",
-        "input": "",
-        "output": "The price of Solana is {price} USD"
+        "instruction": "How much does Apple stock cost?",
+        "input": "price=195.40",
+        "output": "The current price of Apple stock is 195.40 USD"
     },
     {
-        "instruction": "What's the current SOL price?",
-        "input": "",
-        "output": "The price of Solana is {price} USD"
+        "instruction": "Apple price per share",
+        "input": "price=174.60",
+        "output": "The current price of Apple stock is 174.60 USD"
     },
     {
         "instruction": "What is the current price of Microsoft stock?",
-        "input": "",
-        "output": "The current price of Microsoft stock is {price} USD"
+        "input": "price=342.80",
+        "output": "The current price of Microsoft stock is 342.80 USD"
     },
     {
         "instruction": "How much is MSFT trading at?",
-        "input": "",
-        "output": "The current price of Microsoft stock is {price} USD"
+        "input": "price=358.20",
+        "output": "The current price of Microsoft stock is 358.20 USD"
     },
     {
-        "instruction": "What's the weather in Tokyo?",
-        "input": "",
-        "output": "Current weather in Tokyo: temperature at {temp}°C, the sky is {weather} and wind speed ranges at {wind_speed} m/s"
+        "instruction": "Microsoft stock price today",
+        "input": "price=335.75",
+        "output": "The current price of Microsoft stock is 335.75 USD"
     },
     {
-        "instruction": "How's the weather in Tokyo today?",
-        "input": "",
-        "output": "Current weather in Tokyo: temperature at {temp}°C, the sky is {weather} and wind speed ranges at {wind_speed} m/s"
+        "instruction": "Current MSFT share price",
+        "input": "price=367.45",
+        "output": "The current price of Microsoft stock is 367.45 USD"
+    },
+    {
+        "instruction": "What's Microsoft worth now?",
+        "input": "price=321.60",
+        "output": "The current price of Microsoft stock is 321.60 USD"
+    },
+    {
+        "instruction": "MSFT stock quote",
+        "input": "price=349.90",
+        "output": "The current price of Microsoft stock is 349.90 USD"
+    },
+    {
+        "instruction": "Microsoft market value",
+        "input": "price=374.25",
+        "output": "The current price of Microsoft stock is 374.25 USD"
+    },
+    {
+        "instruction": "Show me Microsoft stock price",
+        "input": "price=328.50",
+        "output": "The current price of Microsoft stock is 328.50 USD"
+    },
+    {
+        "instruction": "How much is Microsoft stock?",
+        "input": "price=356.80",
+        "output": "The current price of Microsoft stock is 356.80 USD"
+    },
+    {
+        "instruction": "Microsoft price per share",
+        "input": "price=345.30",
+        "output": "The current price of Microsoft stock is 345.30 USD"
+    },
+    {
+        "instruction": "What's the current price of Solana?",
+        "input": "price=89.50",
+        "output": "The price of Solana is 89.50 USD"
+    },
+    {
+        "instruction": "How much is SOL worth?",
+        "input": "price=102.30",
+        "output": "The price of Solana is 102.30 USD"
+    },
+    {
+        "instruction": "What's the current SOL price?",
+        "input": "price=76.80",
+        "output": "The price of Solana is 76.80 USD"
+    },
+    {
+        "instruction": "Solana price today",
+        "input": "price=95.20",
+        "output": "The price of Solana is 95.20 USD"
+    },
+    {
+        "instruction": "Current Solana market price",
+        "input": "price=84.75",
+        "output": "The price of Solana is 84.75 USD"
+    },
+    {
+        "instruction": "SOL trading price",
+        "input": "price=110.45",
+        "output": "The price of Solana is 110.45 USD"
+    },
+    {
+        "instruction": "What's SOL trading at?",
+        "input": "price=92.60",
+        "output": "The price of Solana is 92.60 USD"
+    },
+    {
+        "instruction": "Solana price check",
+        "input": "price=87.90",
+        "output": "The price of Solana is 87.90 USD"
+    },
+    {
+        "instruction": "How much does Solana cost?",
+        "input": "price=98.35",
+        "output": "The price of Solana is 98.35 USD"
+    },
+    {
+        "instruction": "Show me SOL value",
+        "input": "price=105.80",
+        "output": "The price of Solana is 105.80 USD"
     },
     {
         "instruction": "What's the current price of Cardano?",
-        "input": "",
-        "output": "The price of Cardano is {price} USD"
+        "input": "price=0.45",
+        "output": "The price of Cardano is 0.45 USD"
     },
     {
         "instruction": "How much is ADA worth?",
-        "input": "",
-        "output": "The price of Cardano is {price} USD"
+        "input": "price=0.52",
+        "output": "The price of Cardano is 0.52 USD"
     },
     {
         "instruction": "What's the current ADA price?",
-        "input": "",
-        "output": "The price of Cardano is {price} USD"
+        "input": "price=0.38",
+        "output": "The price of Cardano is 0.38 USD"
     },
     {
-        "instruction": "Can you tell me the current price of Bitcoin?",
-        "input": "",
-        "output": "The price of Bitcoin is {price} USD"
+        "instruction": "Cardano price today",
+        "input": "price=0.48",
+        "output": "The price of Cardano is 0.48 USD"
     },
     {
-        "instruction": "I'd like to know the current Ethereum price",
-        "input": "",
-        "output": "Current Ethereum sits at {price} USD"
+        "instruction": "Current Cardano market price",
+        "input": "price=0.42",
+        "output": "The price of Cardano is 0.42 USD"
     },
     {
-        "instruction": "Could you check the current Tesla stock price?",
-        "input": "",
-        "output": "The current price of Tesla stock is {price} USD"
+        "instruction": "ADA trading price",
+        "input": "price=0.55",
+        "output": "The price of Cardano is 0.55 USD"
     },
     {
-        "instruction": "Please tell me the current weather in New York",
-        "input": "",
-        "output": "Current weather in New York: temperature at {temp}°C, the sky is {weather} and wind speed ranges at {wind_speed} m/s"
+        "instruction": "What's ADA trading at?",
+        "input": "price=0.46",
+        "output": "The price of Cardano is 0.46 USD"
     },
     {
-        "instruction": "I need to know the current Solana price",
-        "input": "",
-        "output": "The price of Solana is {price} USD"
+        "instruction": "Cardano price check",
+        "input": "price=0.41",
+        "output": "The price of Cardano is 0.41 USD"
     },
     {
-        "instruction": "What's the current Microsoft stock price?",
-        "input": "",
-        "output": "The current price of Microsoft stock is {price} USD"
+        "instruction": "How much does Cardano cost?",
+        "input": "price=0.49",
+        "output": "The price of Cardano is 0.49 USD"
     },
     {
-        "instruction": "Can you check the weather in London for me?",
-        "input": "",
-        "output": "Current weather in London: temperature at {temp}°C, the sky is {weather} and wind speed ranges at {wind_speed} m/s"
+        "instruction": "Show me ADA value",
+        "input": "price=0.53",
+        "output": "The price of Cardano is 0.53 USD"
     },
     {
-        "instruction": "I'd like to know the current Cardano price",
-        "input": "",
-        "output": "The price of Cardano is {price} USD"
+        "instruction": "What is the weather in New York?",
+        "input": "temp=15 weather=cloudy wind_speed=4.2",
+        "output": "Current weather in New York: temperature at 15°C, the sky is cloudy and wind speed ranges at 4.2 m/s"
     },
     {
-        "instruction": "Could you tell me the current weather in Tokyo?",
-        "input": "",
-        "output": "Current weather in Tokyo: temperature at {temp}°C, the sky is {weather} and wind speed ranges at {wind_speed} m/s"
+        "instruction": "How's the weather in NYC?",
+        "input": "temp=22 weather=sunny wind_speed=3.8",
+        "output": "Current weather in New York: temperature at 22°C, the sky is sunny and wind speed ranges at 3.8 m/s"
+    },
+    {
+        "instruction": "What's the current weather in New York City?",
+        "input": "temp=8 weather=rainy wind_speed=5.1",
+        "output": "Current weather in New York: temperature at 8°C, the sky is rainy and wind speed ranges at 5.1 m/s"
+    },
+    {
+        "instruction": "New York weather today",
+        "input": "temp=18 weather=partly cloudy wind_speed=2.9",
+        "output": "Current weather in New York: temperature at 18°C, the sky is partly cloudy and wind speed ranges at 2.9 m/s"
+    },
+    {
+        "instruction": "NYC weather conditions",
+        "input": "temp=25 weather=clear wind_speed=1.8",
+        "output": "Current weather in New York: temperature at 25°C, the sky is clear and wind speed ranges at 1.8 m/s"
+    },
+    {
+        "instruction": "Weather forecast for New York",
+        "input": "temp=12 weather=overcast wind_speed=4.7",
+        "output": "Current weather in New York: temperature at 12°C, the sky is overcast and wind speed ranges at 4.7 m/s"
+    },
+    {
+        "instruction": "New York temperature now",
+        "input": "temp=20 weather=foggy wind_speed=2.3",
+        "output": "Current weather in New York: temperature at 20°C, the sky is foggy and wind speed ranges at 2.3 m/s"
+    },
+    {
+        "instruction": "Show me NYC weather",
+        "input": "temp=6 weather=snowy wind_speed=6.2",
+        "output": "Current weather in New York: temperature at 6°C, the sky is snowy and wind speed ranges at 6.2 m/s"
+    },
+    {
+        "instruction": "Current conditions in New York",
+        "input": "temp=28 weather=hot wind_speed=3.4",
+        "output": "Current weather in New York: temperature at 28°C, the sky is hot and wind speed ranges at 3.4 m/s"
+    },
+    {
+        "instruction": "New York weather report",
+        "input": "temp=14 weather=drizzle wind_speed=4.0",
+        "output": "Current weather in New York: temperature at 14°C, the sky is drizzle and wind speed ranges at 4.0 m/s"
+    },
+    {
+        "instruction": "What is the weather in London?",
+        "input": "temp=11 weather=rainy wind_speed=3.5",
+        "output": "Current weather in London: temperature at 11°C, the sky is rainy and wind speed ranges at 3.5 m/s"
+    },
+    {
+        "instruction": "How's the weather in London today?",
+        "input": "temp=16 weather=cloudy wind_speed=2.8",
+        "output": "Current weather in London: temperature at 16°C, the sky is cloudy and wind speed ranges at 2.8 m/s"
+    },
+    {
+        "instruction": "London weather conditions",
+        "input": "temp=9 weather=foggy wind_speed=1.9",
+        "output": "Current weather in London: temperature at 9°C, the sky is foggy and wind speed ranges at 1.9 m/s"
+    },
+    {
+        "instruction": "Current weather in London UK",
+        "input": "temp=19 weather=partly sunny wind_speed=4.1",
+        "output": "Current weather in London: temperature at 19°C, the sky is partly sunny and wind speed ranges at 4.1 m/s"
+    },
+    {
+        "instruction": "London temperature today",
+        "input": "temp=7 weather=overcast wind_speed=5.3",
+        "output": "Current weather in London: temperature at 7°C, the sky is overcast and wind speed ranges at 5.3 m/s"
+    },
+    {
+        "instruction": "Weather forecast for London",
+        "input": "temp=13 weather=drizzle wind_speed=2.6",
+        "output": "Current weather in London: temperature at 13°C, the sky is drizzle and wind speed ranges at 2.6 m/s"
+    },
+    {
+        "instruction": "Show me London weather",
+        "input": "temp=21 weather=sunny wind_speed=3.2",
+        "output": "Current weather in London: temperature at 21°C, the sky is sunny and wind speed ranges at 3.2 m/s"
+    },
+    {
+        "instruction": "London weather report",
+        "input": "temp=5 weather=windy wind_speed=7.8",
+        "output": "Current weather in London: temperature at 5°C, the sky is windy and wind speed ranges at 7.8 m/s"
+    },
+    {
+        "instruction": "Current conditions in London",
+        "input": "temp=17 weather=mild wind_speed=1.4",
+        "output": "Current weather in London: temperature at 17°C, the sky is mild and wind speed ranges at 1.4 m/s"
+    },
+    {
+        "instruction": "London weather now",
+        "input": "temp=12 weather=breezy wind_speed=4.5",
+        "output": "Current weather in London: temperature at 12°C, the sky is breezy and wind speed ranges at 4.5 m/s"
+    },
+    {
+        "instruction": "What's the weather in Tokyo?",
+        "input": "temp=24 weather=humid wind_speed=2.1",
+        "output": "Current weather in Tokyo: temperature at 24°C, the sky is humid and wind speed ranges at 2.1 m/s"
+    },
+    {
+        "instruction": "How's the weather in Tokyo today?",
+        "input": "temp=18 weather=sunny wind_speed=3.7",
+        "output": "Current weather in Tokyo: temperature at 18°C, the sky is sunny and wind speed ranges at 3.7 m/s"
+    },
+    {
+        "instruction": "Tokyo weather conditions",
+        "input": "temp=27 weather=hot wind_speed=1.6",
+        "output": "Current weather in Tokyo: temperature at 27°C, the sky is hot and wind speed ranges at 1.6 m/s"
+    },
+    {
+        "instruction": "Current weather in Tokyo Japan",
+        "input": "temp=15 weather=cool wind_speed=4.3",
+        "output": "Current weather in Tokyo: temperature at 15°C, the sky is cool and wind speed ranges at 4.3 m/s"
+    },
+    {
+        "instruction": "Tokyo temperature today",
+        "input": "temp=21 weather=clear wind_speed=2.8",
+        "output": "Current weather in Tokyo: temperature at 21°C, the sky is clear and wind speed ranges at 2.8 m/s"
+    },
+    {
+        "instruction": "Weather forecast for Tokyo",
+        "input": "temp=32 weather=very hot wind_speed=1.2",
+        "output": "Current weather in Tokyo: temperature at 32°C, the sky is very hot and wind speed ranges at 1.2 m/s"
+    },
+    {
+        "instruction": "Show me Tokyo weather",
+        "input": "temp=19 weather=pleasant wind_speed=3.1",
+        "output": "Current weather in Tokyo: temperature at 19°C, the sky is pleasant and wind speed ranges at 3.1 m/s"
+    },
+    {
+        "instruction": "Tokyo weather report",
+        "input": "temp=26 weather=warm wind_speed=2.4",
+        "output": "Current weather in Tokyo: temperature at 26°C, the sky is warm and wind speed ranges at 2.4 m/s"
+    },
+    {
+        "instruction": "Current conditions in Tokyo",
+        "input": "temp=11 weather=chilly wind_speed=5.2",
+        "output": "Current weather in Tokyo: temperature at 11°C, the sky is chilly and wind speed ranges at 5.2 m/s"
+    },
+    {
+        "instruction": "Tokyo weather now",
+        "input": "temp=23 weather=partly cloudy wind_speed=3.9",
+        "output": "Current weather in Tokyo: temperature at 23°C, the sky is partly cloudy and wind speed ranges at 3.9 m/s"
+    },
+    {
+        "instruction": "What's the current price of Google stock?",
+        "input": "price=132.85",
+        "output": "The current price of Google stock is 132.85 USD"
+    },
+    {
+        "instruction": "How much is GOOGL worth?",
+        "input": "price=145.20",
+        "output": "The current price of Google stock is 145.20 USD"
+    },
+    {
+        "instruction": "Google stock price today",
+        "input": "price=128.60",
+        "output": "The current price of Google stock is 128.60 USD"
+    },
+    {
+        "instruction": "Current GOOGL trading price",
+        "input": "price=139.75",
+        "output": "The current price of Google stock is 139.75 USD"
+    },
+    {
+        "instruction": "What's Google stock trading at?",
+        "input": "price=156.40",
+        "output": "The current price of Google stock is 156.40 USD"
+    },
+    {
+        "instruction": "GOOGL share price now",
+        "input": "price=124.90",
+        "output": "The current price of Google stock is 124.90 USD"
+    },
+    {
+        "instruction": "Google market value",
+        "input": "price=148.30",
+        "output": "The current price of Google stock is 148.30 USD"
+    },
+    {
+        "instruction": "Show me Google stock quote",
+        "input": "price=141.55",
+        "output": "The current price of Google stock is 141.55 USD"
+    },
+    {
+        "instruction": "How much does Google stock cost?",
+        "input": "price=162.80",
+        "output": "The current price of Google stock is 162.80 USD"
+    },
+    {
+        "instruction": "Google price per share",
+        "input": "price=135.70",
+        "output": "The current price of Google stock is 135.70 USD"
+    },
+    {
+        "instruction": "What's the current price of Amazon stock?",
+        "input": "price=142.60",
+        "output": "The current price of Amazon stock is 142.60 USD"
+    },
+    {
+        "instruction": "How much is AMZN worth?",
+        "input": "price=158.35",
+        "output": "The current price of Amazon stock is 158.35 USD"
+    },
+    {
+        "instruction": "Amazon stock price today",
+        "input": "price=134.80",
+        "output": "The current price of Amazon stock is 134.80 USD"
+    },
+    {
+        "instruction": "Current AMZN trading price",
+        "input": "price=167.45",
+        "output": "The current price of Amazon stock is 167.45 USD"
+    },
+    {
+        "instruction": "What's Amazon stock trading at?",
+        "input": "price=125.90",
+        "output": "The current price of Amazon stock is 125.90 USD"
+    },
+    {
+        "instruction": "AMZN share price now",
+        "input": "price=149.20",
+        "output": "The current price of Amazon stock is 149.20 USD"
+    },
+    {
+        "instruction": "Amazon market value",
+        "input": "price=173.85",
+        "output": "The current price of Amazon stock is 173.85 USD"
+    },
+    {
+        "instruction": "Show me Amazon stock quote",
+        "input": "price=138.75",
+        "output": "The current price of Amazon stock is 138.75 USD"
+    },
+    {
+        "instruction": "How much does Amazon stock cost?",
+        "input": "price=156.40",
+        "output": "The current price of Amazon stock is 156.40 USD"
+    },
+    {
+        "instruction": "Amazon price per share",
+        "input": "price=144.30",
+        "output": "The current price of Amazon stock is 144.30 USD"
+    },
+    {
+        "instruction": "What's the current price of Polygon?",
+        "input": "price=0.89",
+        "output": "The price of Polygon is 0.89 USD"
+    },
+    {
+        "instruction": "How much is MATIC worth?",
+        "input": "price=1.15",
+        "output": "The price of Polygon is 1.15 USD"
+    },
+    {
+        "instruction": "What's the current MATIC price?",
+        "input": "price=0.72",
+        "output": "The price of Polygon is 0.72 USD"
+    },
+    {
+        "instruction": "Polygon price today",
+        "input": "price=0.94",
+        "output": "The price of Polygon is 0.94 USD"
+    },
+    {
+        "instruction": "Current Polygon market price",
+        "input": "price=0.83",
+        "output": "The price of Polygon is 0.83 USD"
+    },
+    {
+        "instruction": "MATIC trading price",
+        "input": "price=1.26",
+        "output": "The price of Polygon is 1.26 USD"
+    },
+    {
+        "instruction": "What's MATIC trading at?",
+        "input": "price=0.97",
+        "output": "The price of Polygon is 0.97 USD"
+    },
+    {
+        "instruction": "Polygon price check",
+        "input": "price=0.78",
+        "output": "The price of Polygon is 0.78 USD"
+    },
+    {
+        "instruction": "How much does Polygon cost?",
+        "input": "price=1.08",
+        "output": "The price of Polygon is 1.08 USD"
+    },
+    {
+        "instruction": "Show me MATIC value",
+        "input": "price=0.91",
+        "output": "The price of Polygon is 0.91 USD"
+    },
+    {
+        "instruction": "What's the current price of Chainlink?",
+        "input": "price=14.85",
+        "output": "The price of Chainlink is 14.85 USD"
+    },
+    {
+        "instruction": "How much is LINK worth?",
+        "input": "price=18.20",
+        "output": "The price of Chainlink is 18.20 USD"
+    },
+    {
+        "instruction": "What's the current LINK price?",
+        "input": "price=12.45",
+        "output": "The price of Chainlink is 12.45 USD"
+    },
+    {
+        "instruction": "Chainlink price today",
+        "input": "price=16.70",
+        "output": "The price of Chainlink is 16.70 USD"
+    },
+    {
+        "instruction": "Current Chainlink market price",
+        "input": "price=11.30",
+        "output": "The price of Chainlink is 11.30 USD"
+    },
+    {
+        "instruction": "LINK trading price",
+        "input": "price=19.85",
+        "output": "The price of Chainlink is 19.85 USD"
+    },
+    {
+        "instruction": "What's LINK trading at?",
+        "input": "price=15.55",
+        "output": "The price of Chainlink is 15.55 USD"
+    },
+    {
+        "instruction": "Chainlink price check",
+        "input": "price=13.90",
+        "output": "The price of Chainlink is 13.90 USD"
+    },
+    {
+        "instruction": "How much does Chainlink cost?",
+        "input": "price=17.25",
+        "output": "The price of Chainlink is 17.25 USD"
+    },
+    {
+        "instruction": "Show me LINK value",
+        "input": "price=21.40",
+        "output": "The price of Chainlink is 21.40 USD"
+    },
+    {
+        "instruction": "What is the weather in Paris?",
+        "input": "temp=14 weather=rainy wind_speed=3.6",
+        "output": "Current weather in Paris: temperature at 14°C, the sky is rainy and wind speed ranges at 3.6 m/s"
+    },
+    {
+        "instruction": "How's the weather in Paris today?",
+        "input": "temp=19 weather=sunny wind_speed=2.4",
+        "output": "Current weather in Paris: temperature at 19°C, the sky is sunny and wind speed ranges at 2.4 m/s"
+    },
+    {
+        "instruction": "Paris weather conditions",
+        "input": "temp=8 weather=cloudy wind_speed=1.8",
+        "output": "Current weather in Paris: temperature at 8°C, the sky is cloudy and wind speed ranges at 1.8 m/s"
     }
-] 
+]   

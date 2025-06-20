@@ -3,3 +3,6 @@ __init__.py
 .env
 .venv
 .conda.conda/
+jupyter/results/
+jupyter/trainer_output/
+jupyter/wandb/
